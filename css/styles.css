@@ -1,0 +1,139 @@
+h1{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+#title{
+    background-color: #ff4c68;
+}
+#mobile{
+    transform: rotate(25deg);
+    width: 150px;
+    position: absolute;
+    right: 30%;
+    z-index: 0;
+    margin-top: 25px;
+}
+.title-des{
+    margin-top: 5%;
+
+}
+.title-headline{
+    margin-top: 5% 15%;
+}
+.logo{
+    font-family: 'Ubuntu';
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.li-content{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+#features{
+    padding: 5% ;
+    position: relative;
+    background-color: white;
+}
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+p{
+    color:#8f8f8f;
+}
+.features-list-icon{
+    color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 2.5%;
+}
+.features-list-icon:hover{
+    color: #ff4c68;
+}
+.features-list{
+    text-align: center;
+}
+
+#testimonials{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+}
+.testimonial-text{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-logo{
+    margin: 0.5rem;
+    padding: 1%;
+    width: 15%;
+}
+
+.carousel-item{
+    padding: 7% 15%;    
+}
+
+.price-info{
+    text-align: center;
+    margin: 25px;
+}
+#pricing{
+    text-align: center;
+    padding: 3%;
+}
+.class-header{
+    font-weight: bolder;
+}
+h2{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+@media (max-width: 1028px) {
+    #mobile{
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:70px;
+    color: white;
+}
+#cta-msg{
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+}
+.picon{
+    margin: 10px;
+}
+#footer{
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+}
